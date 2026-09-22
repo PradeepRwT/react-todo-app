@@ -5,15 +5,14 @@ This project allows users to create, delete, and manage their daily tasks with f
 
 ## 🚀 Features
 
-- Create new Todos
+- Create a new Todo
 - Form validation
 - Minimum 5 characters validation
 - Delete individual Todos
 - Delete all Todos
 - Success and error toast notifications
 - Unique Todo IDs using Nanoid
-- Responsive UI
-- Clean and simple interface
+- Responsive user interface
 
 ## 🛠️ Technologies Used
 
@@ -27,18 +26,24 @@ This project allows users to create, delete, and manage their daily tasks with f
 
 ## 📸 Preview
 
-Add a screenshot of your application here.
+### Todo App
 
-![Todo App Screenshot](./screenshot.png)
+![Todo App](./screenshots/todo-home.png)
+
+### Required Field Validation
+
+![Required Validation](./screenshots/validation-required.png)
+
+### Minimum Length Validation
+
+![Minimum Length Validation](./screenshots/validation-min-length.png)
 
 ## 📂 Project Structure
 
-```text
 src/
 ├── components/
 │   ├── Create.jsx
 │   └── Read.jsx
-│
 ├── App.jsx
 ├── main.jsx
 └── index.css
