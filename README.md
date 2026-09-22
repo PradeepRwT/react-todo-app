@@ -42,8 +42,33 @@ This project allows users to create, delete, and manage their daily tasks with f
 
 src/
 ├── components/
-│   ├── Create.jsx
-│   └── Read.jsx
+│ ├── Create.jsx
+│ └── Read.jsx
 ├── App.jsx
 ├── main.jsx
 └── index.css
+
+## 🧠 What I Learned
+
+While building this project, I learned and practiced:
+
+- Creating and structuring React components
+- Passing data between components using props
+- Managing Todo state with `useState`
+- Handling form data with React Hook Form
+- Adding form validation and displaying validation errors
+- Rendering Todo items dynamically using `.map()`
+- Deleting individual Todos using `.filter()`
+- Deleting all Todos
+- Generating unique Todo IDs using Nanoid
+- Showing success and error notifications with React Toastify
+- Styling the application using Tailwind CSS
+
+## 🔮 Future Improvements
+
+- Add Edit Todo functionality
+- Add a Complete/Incomplete Todo feature
+- Store Todos in LocalStorage
+- Add Todo search functionality
+- Add filters for Pending and Completed Todos
+- Add Todo persistence after page refresh
