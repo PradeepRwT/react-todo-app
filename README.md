@@ -24,6 +24,10 @@ This project allows users to create, delete, and manage their daily tasks with f
 - React Toastify
 - Nanoid
 
+## 🔗 Live Demo
+
+[View Live Demo](https://react-todo-app-gray-theta.vercel.app)
+
 ## 📸 Preview
 
 ### Todo App
