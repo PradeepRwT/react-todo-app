@@ -1,12 +1,16 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { nanoid } from "nanoid";
 import { useForm } from "react-hook-form";
 import "react-toastify/dist/ReactToastify.css";
 import { toast } from "react-toastify";
+import { todoContext } from "../Wrapper";
 
-const Create = ({ todos, settodos }) => {
+
+const Create = () => {
   // const[title,setTitle] = useState("")
   // const [completed, setcompleted] = useState(false)
+
+  const [todos, settodos] = useContext(todoContext)
 
   const {
     register,

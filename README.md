@@ -1,18 +1,22 @@
 # 📝 React Todo App
 
-A simple and responsive Todo application built with React.  
-This project allows users to create, delete, and manage their daily tasks with form validation and toast notifications.
+A simple and responsive Todo application built with React.
+
+This project allows users to create, delete, and manage their daily tasks with form validation, toast notifications, and global state management using React Context API.
 
 ## 🚀 Features
 
 - Create a new Todo
 - Form validation
+- Required field validation
 - Minimum 5 characters validation
 - Delete individual Todos
 - Delete all Todos
 - Success and error toast notifications
 - Unique Todo IDs using Nanoid
+- Global Todo state management using React Context API
 - Responsive user interface
+- Deployed with Vercel
 
 ## 🛠️ Technologies Used
 
@@ -23,6 +27,8 @@ This project allows users to create, delete, and manage their daily tasks with f
 - React Hook Form
 - React Toastify
 - Nanoid
+- React Context API
+- Vercel
 
 ## 🔗 Live Demo
 
@@ -46,9 +52,10 @@ This project allows users to create, delete, and manage their daily tasks with f
 
 src/
 ├── components/
-│ ├── Create.jsx
-│ └── Read.jsx
+│   ├── Create.jsx
+│   └── Read.jsx
 ├── App.jsx
+├── Wrapper.jsx
 ├── main.jsx
 └── index.css
 
@@ -57,16 +64,22 @@ src/
 While building this project, I learned and practiced:
 
 - Creating and structuring React components
-- Passing data between components using props
 - Managing Todo state with `useState`
+- Creating global state using React Context API
+- Using `createContext` and `useContext`
+- Sharing Todo state between multiple components
 - Handling form data with React Hook Form
-- Adding form validation and displaying validation errors
+- Adding required field and minimum length validation
+- Handling form submission and validation errors
+- Displaying success and error notifications using React Toastify
 - Rendering Todo items dynamically using `.map()`
 - Deleting individual Todos using `.filter()`
 - Deleting all Todos
 - Generating unique Todo IDs using Nanoid
-- Showing success and error notifications with React Toastify
 - Styling the application using Tailwind CSS
+- Organizing a React project into reusable components
+- Deploying a React application using Vercel
+- Connecting GitHub with Vercel for deployment
 
 ## 🔮 Future Improvements
 
